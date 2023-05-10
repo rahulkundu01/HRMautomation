@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.example.test.ForgetPasswordTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="validate_FP02"/>
+          <include name="beforeTest"/>
+          <include name="validate_FP01"/>
+          <include name="validate_FP03"/>
+          <include name="validate_ResetPwd"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.example.test.ForgetPasswordTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
